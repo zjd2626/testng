@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="All Test Suite" annotations="JDK" parallel="tests">
+    <test verbose="2" preserve-order="true" name="D:/Workspaces/IdeaProjects/ithm/basic/src/cn/nome/testng">
+        <classes>
+            <class name="cn.nome.testng.testng_demo1">
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+                <include name="test4"/>
+            </methods>
+        </class>
+            <class name="cn.nome.testng.testng_demo2">
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+                <include name="test4"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
